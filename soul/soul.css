@@ -20,6 +20,11 @@
 	to {opacity:1;}
 }
 
+a {
+	color:white;
+	text-decoration:none;
+}
+
 .clickme {
 	cursor:url("media/select.png"),auto;
 }
