@@ -153,7 +153,7 @@ $("#firstBubble").click(function(e){
   var insert1 = "The Turing test was developed by English computer scientist Alan Turing. The purpose is to test a machine’s ability to show intelligence equivalent to, or on the same level, as a human-being. It was inspired by a popular party game at the time, were two people go in to separate rooms ans pretend to be one another. The audience then have to decide who is who. With the Turing test, an evaluator holds a text based conversation with a human and a machine to try and decide who is who. With the conversation being text based, no judgement will be made on the machines ability to render speech. ";
   var br ="<br> <br>"
   var insert2 ='When introducing the test Turing started by asking ”Can machines think?” , but since thinking is difficult to define he changed it to one that can actually be answered.';
-  var link = "<a  href='https://en.wikipedia.org/wiki/Turing_test' target='blank'>READ MORE</a>"
+  var link = "<a  href='#'>READ MORE</a>"
   var allText = insert1 + br + insert2 + br + link
   
   $("#thoughtbubble p").html(allText);
@@ -171,7 +171,7 @@ $("#secondBubble").click(function(e){
   var insert2 ='”it is comparatively easy to make computers exhibit adult level performance on intelligence tests or playing checkers, and difficult or impossible to give them the skills of a one-year-old when it comes to perception and mobility”.';
   var insert3 = 'Minsky also emphasized that the hardest of human skills for us to create from scratch are those that happen unconsciously.';
   var insert4 = 'Basically, what is easy for us (because of millions of years of evolution) is hard for a computer. Things that we find difficult (where are mind are still not doing it without us noticing), are easy for machines – because we have a better understanding of how to engineer them.';
-  var link = "<a  href='https://en.wikipedia.org/wiki/Moravec%27s_paradox' target='blank'>READ MORE</a>"
+  var link = "<a  href='#'>READ MORE</a>"
   var allText = insert1 + br + insert2 + brbr + insert3 + brbr + insert4 + brbr + link;
   
   $("#thoughtbubble p").html(allText);
@@ -185,7 +185,7 @@ $("#thirdBubble").click(function(e){
   var insert1 = 'The Chinese room argument is a thought experiment by British philosopher John Searle. It imagines an advanced AI that has be programmed to behave, <i>as if</i>, it understands Chinese.It takes Chinese characters as input and following its programmed instructions produces appropriate Chinese characters as a response. The machine passes the Turing test and a Chinese speaker is convinced.';
   var br ="<br> <br>"
   var insert2 ='But – does the machine <i>literally</i> understand Chinese? Or is it only simulating this understanding? Is it really conscious or is it only faking it because we told it to?';
-  var link = "<a  href='https://en.wikipedia.org/wiki/Chinese_room#Chinese_room_thought_experiment' target='blank'>READ MORE</a>"
+  var link = "<a  href='#'>READ MORE</a>"
 
 
   var allText = insert1 + br + insert2 + br +  link;
@@ -202,7 +202,7 @@ $("#fourthBubble").click(function(e){
   var insert1 = 'A thought experiment, also called "The Knowledge Argument" arguing against that our view of the world is only physical and computable. Which, in turn, also makes it more difficult to call computed entites(robots) living things. It goes like this:';
   var br ="<br> <br>"
   var insert2 ='<i>Mary is a brilliant scientist who is, for whatever reason, forced to investigate the world from a black and white room via a black and white television monitor. She specializes in the neurophysiology of vision and acquires, let us suppose, all the physical information there is to obtain about what goes on when we see ripe tomatoes, or the sky, and use terms like "red", "blue", and so on. She discovers, for example, just which wavelength combinations from the sky stimulate the retina, and exactly how this produces via the central nervous system the contraction of the vocal cords and expulsion of air from the lungs that results in the uttering of the sentence "The sky is blue". ... What will happen when Mary is released from her black and white room or is given a color television monitor? Will she learn anything or not?</i>';
-  var link = "<a  href='https://en.wikipedia.org/wiki/Knowledge_argument' target='blank'>READ MORE</a>"
+  var link = "<a  href='#'>READ MORE</a>"
 
 
   var allText = insert1 + br + insert2 + br +  link;
